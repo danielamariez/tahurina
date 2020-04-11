@@ -1,0 +1,54 @@
+<%- include('head'); %>
+<body class="homepage is-preload">
+<div id="page-wrapper">
+    <%- include('header', {section: 'contacto'}); %>
+    <%- include('banner'); %>
+</div>
+
+<!-- Footer -->
+<section id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-8 col-12-medium">
+                <section>
+                    <header>
+                        <u><h3>Envíanos tu mensaje</h3></u>
+                    </header>
+                    <ul class="dates">
+                        <li>
+
+                            <h3><i><a href="#">Nombre *</a></i></h3>
+                            <p><input type="text" name="nombrecontacto"></p>
+                        </li>
+                        <li>
+
+                            <h3><i><a href="#">Correo Electrónico *</a></i></h3>
+                            <p><input type="text" name="mailcontacto"></p>
+                        </li>
+                        <li>
+
+                            <h3><i><a href="#">Asunto</a></i></h3>
+                            <p><input type="text" name="asuntocontacto"></p>
+                        </li>
+                        <li>
+
+                            <h3><i><a href="#">Mensaje</a></i></h3>
+                            <textarea cols="40" rows="5"></textarea>
+                            <div>
+                                <br><br>
+                            </div>
+                            <p><button>Enviar </button></p>
+                        </li>
+
+                    </ul>
+                </section>
+            </div>
+        </div>
+    </div>
+</section>
+<%- include('footer'); %>
+
+<%- include('scripts'); %>
+
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!-- Header -->
+<section id="header">
+    <!-- Logo -->
+    <h1><a href="/">TAHURINA</a></h1>
+
+    <!-- Nav -->
+    <nav id="nav">
+        <ul>
+            <% if(section !== null && section == 'index'){ %>
+                <li class="current"><a href="/">Inicio</a></li>
+            <% } %>
+            <% if(section !== null && section != 'index'){ %>
+                <li ><a href="/">Inicio</a></li>
+            <% } %>
+            <li>
+                <a href="/indumentaria">Indumentaria</a>
+                <ul>
+                    <li><a href="#">Remeras & tops</a></li>
+                    <li><a href="#">Blusas</a></li>
+                    <li><a href="#">Shorts|polleras</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="/accesorios">Accesorios</a>
+                <ul>
+                    <li><a href="#">Cintos</a></li>
+                    <li><a href="#">Mochilas & Carteras</a></li>
+                    <li><a href="#">Riñoneras</a></li>
+                    <li><a href="#">Bijou</a></li>
+                </ul>
+            </li>
+            <% if(section !== null && section != 'contacto'){ %>
+                <li><a href="/contacto">Contacto</a></li>
+            <% } %>
+            <% if(section !== null && section == 'contacto'){ %>
+                <li class="current"><a href="/contacto">Contacto</a></li>
+            <% } %>
+        </ul>
+    </nav>
+</section>
