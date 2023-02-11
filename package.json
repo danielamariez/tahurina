@@ -17,7 +17,7 @@
     "ejs": "^2.6.1",
     "express": "^4.16.4",
     "mssql": "^5.1.0",
-    "nodemon": "^2.0.3"
+    "nodemon": "^2.0.20"
   },
   "bugs": {
     "url": "https://github.com/danielamariez/tahurina/issues"
